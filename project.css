@@ -1,0 +1,19 @@
+
+.footer-text{
+    font-size: small;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.img {
+    /* width: 150px;;
+    height: 250px; */
+    scale: 0.9;
+}
+
+/* rules for phones */
+@media only screen and (max-width:500px)
+{
+    .img {display:none}
+    .footer-text {display:none}
+}
